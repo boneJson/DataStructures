@@ -1,7 +1,7 @@
 package com.zxk.stack;
 
 import java.util.Scanner;
-
+//数组模拟栈
 public class ArrayStackDemo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

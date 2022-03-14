@@ -1,11 +1,12 @@
 package com.zxk.stack;
 
 import java.util.Scanner;
-
-public class Calculater {
+//使用模拟栈计算中缀表达式(不带括号)
+public class Calculator {
     public static void main(String[] args) {
         Stack operas = new Stack(10);//数字栈:存放数字的解析后的值
         Stack nums = new Stack(10);//运算符栈:存放运算符对应 ascll码值
+
         String cal = "";//接收输入的表达式字符串
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入表达式:");

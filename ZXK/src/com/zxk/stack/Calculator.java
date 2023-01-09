@@ -36,8 +36,10 @@ public class Calculator {
                         num2 = nums.pop();
                         opera = operas.pop();
                         nums.push(calcu(num1, num2, opera));
+                        index--;
+                    }else {
+                        operas.push(ch);//优先级高于栈顶的元素
                     }
-                    operas.push(ch);//优先级高于栈顶的元素
                 }
             }else {//字符为数字
 

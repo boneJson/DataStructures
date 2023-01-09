@@ -16,12 +16,13 @@ public class SingleLinkedListDemo {
         HeroNode hero4 = new HeroNode(4, "林冲", "豹子头");
 
         SingleLinkedList singleLinkedList = new SingleLinkedList();
-        /*singlelinkedlist.add(hero1);
-        singlelinkedlist.add(hero2);
-        singlelinkedlist.add(hero3);
-        singlelinkedlist.add(hero4);*/
+        singleLinkedList.add(hero1);
+        singleLinkedList.add(hero2);
+        singleLinkedList.add(hero3);
+        singleLinkedList.add(hero4);
+        singleLinkedList.list();
 
-        singleLinkedList.addByOrder(hero1);
+        /*singleLinkedList.addByOrder(hero1);
         singleLinkedList.addByOrder(hero4);
         singleLinkedList.addByOrder(hero3);
         singleLinkedList.addByOrder(hero2);
@@ -36,7 +37,7 @@ public class SingleLinkedListDemo {
 
         singleLinkedList.delete(2);
         System.out.println("删除后:");
-        singleLinkedList.list();
+        singleLinkedList.list();*/
     }
 }
 
